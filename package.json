@@ -38,7 +38,7 @@
     "lint": "eslint . --ext .ts --ext .tsx",
     "lint:fix": "eslint --ext .ts --ext .tsx --fix"
   },
-  "homepage": "https://rolling-scopes-school.github.io/tatsiana-bivoina-REACT2022Q1",
+  "homepage": "https://tatsiana-bivoina.github.io/react-test-project/",
   "proxy": "https://api.pexels.com/v1/",
   "eslintConfig": {
     "extends": [
