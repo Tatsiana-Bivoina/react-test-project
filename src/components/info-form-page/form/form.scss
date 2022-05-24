@@ -1,0 +1,108 @@
+.info-form {
+  width: 100%;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .first-name-label,
+  .last-name-input,
+  .email-label,
+  .date-label {
+    width: 49%;
+  }
+
+  .first-name-label,
+  .email-label {
+    margin-right: 2%;
+  }
+
+  input {
+    margin-top: 10px;
+    padding: 5px;
+
+    &:not([type="file"]):hover {
+      cursor: pointer;
+      background-color: rgb(202, 202, 236);
+    }
+  }
+}
+
+.input-text-container {
+  display: flex;
+}
+
+.checkbox-container,
+.radio-container {
+  display: flex;
+  margin-bottom: 20px;
+
+  input {
+    margin: 0;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+
+  label {
+    margin: 0;
+  }
+}
+
+.select-container {
+  select {
+    margin-top: 10px;
+    width: 50%;
+    height: 25px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(202, 202, 236);
+    }
+  }
+}
+
+.submit-container {
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    transition: 1.2s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(.9);
+    }
+  }
+}
+
+.error-text {
+  color: #f11919;
+}
+
+@media all and (max-width: 870px) {
+  .info-form {
+    .input-text-container {
+      display: block;
+    }
+
+    .first-name-label,
+    .last-name-input,
+    .email-label,
+    .date-label {
+      width: 100%;
+    }
+  
+    .first-name-label,
+    .email-label {
+      margin-right: 0;
+    }
+  }
+}

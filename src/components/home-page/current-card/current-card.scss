@@ -1,0 +1,54 @@
+.current-card {
+  background-color: #d2d2d2;
+  min-height: 200px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.card-header,
+.card-body {
+  padding: 10px 20px;
+}
+
+.card-header {
+  min-height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+
+.btn-close {
+  width: 60px;
+  height: 25px;
+  border: 2px solid #7272c8;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .img-container {
+    width: 100%;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  span {
+    font-weight: normal;
+  }
+}

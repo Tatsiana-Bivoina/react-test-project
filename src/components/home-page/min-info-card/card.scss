@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  min-height: 400px;
+  background-color: #d2d2d2;
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.img-container {
+  width: 255px;
+  height: 195px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.btn-redirect {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid rgb(5, 5, 105);
+  }
+}
+
+.card-btns {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin: 0 10px;
+  padding: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-like {
+  background: url('../../../assets/icons/icon-like.svg') no-repeat center;
+}
+
+.btn-download {
+  background: url('../../../assets/icons/icon-download.svg') no-repeat center;
+}
+
+.photographer-page {
+  margin-bottom: 20px;
+}

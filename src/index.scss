@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+
+  p {
+    color: rgb(17, 15, 15);
+  }
+
+  a.active {
+    color: #000;
+    background: linear-gradient(0deg, rgb(160, 117, 6) 0%, rgba(245,253,45,0.9447129193474265) 83%);
+    border-radius: 5px;
+  }
+}
+
+.wrapper {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main {
+  height: 100%;
+  padding-top: 10vh;
+  box-sizing: border-box;
+}
