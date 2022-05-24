@@ -1,5 +1,5 @@
 {
-  "name": "react-components",
+  "name": "react-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,7 +38,7 @@
     "lint": "eslint . --ext .ts --ext .tsx",
     "lint:fix": "eslint --ext .ts --ext .tsx --fix"
   },
-  "homepage": "https://tatsiana-bivoina.github.io/react-test-project/",
+  "homepage": "/react-test-project/",
   "proxy": "https://api.pexels.com/v1/",
   "eslintConfig": {
     "extends": [
